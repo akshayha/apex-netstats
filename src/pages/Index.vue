@@ -1,14 +1,19 @@
 <template>
   <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-full.svg"
-    >
+    <ipinfo />
   </q-page>
 </template>
 
 <script>
+import ipinfo from '../components/index/ipinfo'
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  components: {
+    ipinfo
+  },
+  mounted () {
+
+  },
+  methods: {}
 }
 </script>
