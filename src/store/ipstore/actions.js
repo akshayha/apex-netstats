@@ -14,6 +14,21 @@ export function setConnectedIPs ({ commit }, payload) {
   commit('setConnectedIPs', payload)
 }
 
+export async function getApexServerList ({ state, commit, dispatch }) {
+  commit('apexServerListLoading', true)
+  https.get('https://titanfall.p0358.net/status/api/r2', (resp) => {
+    var json = ''
+    resp.on('data', function (chunk) {
+      json += chunk
+    })
+    resp.on('end', () => {
+      var resp = JSON.parse(json)
+      commit('setApexServers', resp.servers)
+      commit('apexServerListLoading', false)
+    })
+  })
+}
+
 export async function getLocationInfo ({ state, commit, dispatch }) {
   commit('setIPStoreLoading', true)
   https.get(`https://ipvigilante.com/${state.selected_ip}`, (resp) => {
