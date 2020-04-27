@@ -21,3 +21,11 @@ export function setLocationError (state, payload) {
 export function setMapCenter (state, payload) {
   state.map_center = payload
 }
+
+export function setApexServers (state, payload) {
+  state.apex_servers = payload
+}
+
+export function apexServerListLoading (state, payload) {
+  state.server_list_loading = payload
+}
