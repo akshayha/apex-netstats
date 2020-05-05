@@ -1,4 +1,4 @@
-# net-inquiry (net-inquiry)
+# apex-netstats (apex-netstats)
 
 A Quasar Framework app
 
