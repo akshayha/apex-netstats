@@ -1,26 +1,11 @@
-# apex-netstats (apex-netstats)
+![APM](https://img.shields.io/apm/l/vim-mode?color=blue&style=for-the-badge)
+# Apex Netstats!
 
-A Quasar Framework app
+Electron app to display network statistics for **Apex Legends**
 
-## Install the dependencies
-```bash
-yarn
-```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+# Clone and Build
 
-### Lint the files
-```bash
-yarn run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+**Clone Repo:** git clone https://github.com/akshayha/apex-netstats.git
+**Yarn Install:** yarn
+**Quasar Build:** quasar build -m electron --target win32
