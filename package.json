@@ -1,8 +1,8 @@
 {
-  "name": "net-inquiry",
+  "name": "apex-netstats",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "net-inquiry",
+  "productName": "apex-netstats",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "Akshay <no-reply>",
