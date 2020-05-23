@@ -135,7 +135,7 @@ export default {
       zoom: 8,
       url: 'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.png',
       attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      ping_frequency: 3,
+      ping_frequency: 1,
       ping_array: new Array(10),
       dataCollection: null,
       selected_server: null,
